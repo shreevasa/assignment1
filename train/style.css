@@ -1,0 +1,230 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+.row{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.logo{
+    padding-top: 15px;
+    margin-left: 140px;
+}
+.options{
+    float: right;
+    list-style: none;
+}
+.options li{
+    display:inline-block;
+    padding: 5px;
+
+}
+.Contact{
+    color: white;
+    font-weight: bold;
+    outline: none;
+    background-color: #C8122E;
+    border: none;
+
+}
+.Contact:hover{
+    background-color: green;
+    border: 1px solid green;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px 0 15px;
+}
+li a {
+    text-decoration: none;
+    color: #0A1118;
+}
+.options li a{
+    text-decoration: none;
+    color:#0A1118;
+
+}
+.options li a:hover{
+    color: red;
+}
+.options li button{
+    background-color:#C8122E;
+    padding: 5px;
+    border: 1px solid #C8122E;
+    color:white;
+    font-size: 100%;
+}
+
+.banner1{
+    width: 100%;
+    
+}
+.banner1{
+    position: relative;
+    top:0;
+    left:0;
+}
+.info{
+    position: absolute;
+    top:75px;
+    left:0px;
+    width: 50%;
+    background-color: rgba(255,255,255,0.8);
+    
+}
+.content{
+    position: absolute;
+    top:180px;
+    left: 150px;
+    font-size: 200%;
+    object-fit: cover;
+}
+.content .sub-content{
+    font-size:50%;
+    color: rgb(151, 150, 150);
+}
+.build{
+    margin-top: 53px;
+    margin-left: 75px;
+    float: left;
+}
+.south{
+    margin-left: 630px;
+    padding-top: 50px;  
+    font-size: 40px;
+}
+.east{
+    margin-left:630px;
+    font-style: unset;
+}
+.know{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    padding:10px;
+    margin-left:140px;
+    margin-top: 25px;
+}
+.know:hover{
+    border: 1px solid #db7f39;
+    background-color: #db7f39;
+}
+.carolina{
+    background-color:rgb(240, 235, 235);
+    height: 450px;
+    padding-top:50px;
+    margin-top: 20px;
+}
+.sweet-home{
+    margin-left: 90px;
+    margin-top: 30px;
+    padding-top: 20px;
+    width: 450px;
+    padding:10px;
+    border: 0px solid white;
+    background-color: white;
+}
+
+.sweet-home1{
+    margin-left: 90px;
+    margin-top: 30px;
+    padding-top: 20px;
+    width: 450px;
+    padding:10px;
+    border: 0px solid #db7f39;
+    background-color: #db7f39;
+    color: white;
+}
+.home2018{
+    margin-left:630px;
+    margin-top: -300px;
+    font-size: 40px;
+}
+.homecontent{
+    margin-left: 630px;
+}
+.lorem{
+    background-color: #0A1118;
+
+}
+.lorem2{
+    color:white;
+    font-size: 50px; 
+    margin-left: 80px;
+}
+.lorem1{
+    width: 50%;
+    /* display:inline-block; */
+    float: left;
+    background-color: #0A1118;
+    height: 565px;
+}
+.lorem3{
+    color: rgb(197, 194, 194);
+    margin-left: 80px;
+    padding: 5px;
+}
+.tick{
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 10px; 
+    
+}
+.two{
+    position: absolute;
+    display: inline-block;
+    max-width: 50%;
+    margin-right: 8px;
+    margin-bottom: 0px;
+
+}
+/* footer{
+    position: relative;
+    margin-top:580px;
+} */
+.div_footer{
+    width:100%;
+    display: flex;
+    vertical-align: middle;
+}
+footer{
+ font-size: 10px;
+ color: gray;
+ display: flex;
+ position: relative;
+ margin-top: 580px;
+}
+​
+.div_footer_left{
+    width:35%;
+    padding: 20px 0px 0px 50px;
+    display: inline-block;
+    /* vertical-align: middle; */
+}
+.div_footer_mid{
+ width:35%;
+ padding: 0px;
+ display: inline-block;
+ vertical-align: middle;
+ list-style: none;
+ text-decoration: none;
+ margin-left: 200px;
+}
+.div_footer_right{
+ width:30%;
+ padding: 0px;
+ display: inline-block;
+ vertical-align: middle;
+}
+.span_copyright{
+vertical-align: middle;
+padding-left: 20px;
+padding-top: 0px;
+}
+.div_footer_mid li a:hover{
+    color:red;
+}
+.fa fa-facebook fa-2x:hover{
+    color:rgb(77, 77, 238);
+}
