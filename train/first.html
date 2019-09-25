@@ -47,11 +47,33 @@
     </section>
     <section class="carolina">
         <div class="row">
-            <p class="sweet-home"><b>2018<br></b>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Aut delectus </p>
-            <p class="sweet-home1"><b>WINNER<br></b>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Aut delectus </p>
-            <p class="sweet-home"><b>GREEN TAG SALE<br></b>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Aut delectus </p>
-            <p class="home2018">South Carolina's 2018 Best Home Builder!</p>
-            <p class="homecontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quibusdam similique assumenda! Explicabo quis suscipit perferendis iure quam provident? Veniam, accusantium id? Cumque ratione tempore optio earum aspernatur. Odio, vitae.</p>
+                <div class="div_left">
+                        <div class="odd" onclick="openTab(event, '2018')" tabindex="0" onfocus="openTab(event,'2018')">
+                            <p class="odd"><b>2018</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae accusantium corrupti,</p>
+                        </div>
+                        <div class="even" onclick="openTab(event, 'WINNER')" tabindex="0" onfocus="openTab(event,'WINNER')">
+                            <p class="even"><b>WINNER!</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae accusantium corrupti,</p>
+                        </div>
+                        <div class="odd" onclick="openTab(event, '1028')" tabindex="0" onfocus="openTab(event,'1028')">
+                            <p class="odd"><b>2018</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae accusantium corrupti,</p>
+                        </div>
+                      </div>
+                      <div class="div_right">
+                        <div id="2018" class="content" id="defaultOpen">
+                            <h1 class="heading">South Carolina's 2018<br>Best Home Builder!</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dicta voluptatem voluptate reiciendis mollitia officia ex ab, deserunt sint tenetur, ducimus vitae quibusdam ratione blanditiis similique nulla dolore? Corporis, accusantium!</p>
+                          </div>
+                          
+                          <div id="WINNER" class="content">
+                            <h1 class="heading">South Carolina's 2018<br>Winner!</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dicta voluptatem voluptate reiciendis mollitia officia ex ab, deserunt sint tenetur, ducimus vitae quibusdam ratione blanditiis similique nulla dolore? Corporis, accusantium!</p>
+                          </div>
+                          
+                          <div id="1028" class="content">
+                            <h1 class="heading">South Carolina's 2018<br>Best Home!</h1>
+                            <p>sit amet consectetur adipisicing elit. Aliquam dicta voluptatem voluptate reiciendis mollitia officia ex ab, deserunt sint tenetur, ducimus vitae quibusdam ratione blanditiis similique nulla dolore? Corporis, accusantium!</p>
+                          </div>
+                      </div>
         </div>
 
     </section>
@@ -103,6 +125,6 @@
 
 
 
-  
+  <script src="script.js"></script>
 </body>
 </html>
